@@ -37,17 +37,12 @@ a{
 }
 .header .navigation ul li{
 	margin-bottom: 1rem;
-
 }
-.header .navigation ul li i{
-	font-size: 1.7rem;
-
-}
-.header .navigation ul li span{
-	font-size: 1rem;
-	padding-left: 1rem;
+.header .navigation ul li a{
+	font-size: 1.1rem;
 	color: #34AC98;
 }
+
 /*tweet*/
 .header .tweet{
 	margin-top: 4rem;
@@ -265,12 +260,12 @@ a{
 	.header .navigation ul li{
 		float: left;
 		padding-right: 0;
-		
 	}
-	
-	.header .navigation ul li i{
-		display: block;
-		padding-bottom: 1rem;
+	.header .navigation ul li{
+		padding-left: 1rem;
+	}
+	.header .navigation ul li a{
+		font-size: 0.9rem;
 	}
 	.container{
 		padding-top: 2rem;
@@ -286,9 +281,7 @@ a{
 	}
 	@media only screen and (max-width: 600px){
 
-		.header .navigation ul li i{
-			display: none;
-		}
+		
 		.header .navigation ul li{
 			padding-right: 0;
 		}
@@ -300,9 +293,7 @@ a{
 			margin: 0 2%;
 			margin-bottom: 2rem;
 		}
-		.header .navigation ul li span{
-			font-size: 0.8rem;	
-		}
+		
 		.footer .footer-copyright ul li a{
 			font-size: 0.6rem;
 		}
@@ -318,8 +309,9 @@ a{
 			float: none;
 			width: 100%;	
 		}
-		.header .navigation ul li span{
-			font-size: 0.5rem;	
+		.header .navigation ul li a{
+
+			font-size: 0.6rem;
 		}
 		.header .logo{
 			text-align:center;
