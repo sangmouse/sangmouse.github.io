@@ -104,6 +104,8 @@ a{
 }
 .main .main-content .main-content-block .main-content-block-item h3{
 	font-weight: normal;
+}
+.main .main-content .main-content-block .main-content-block-item h3 a{
 	color: #34AC98;
 }
 .main .main-content .main-content-block .main-content-block-item p{
