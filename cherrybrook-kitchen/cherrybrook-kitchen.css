@@ -76,6 +76,10 @@ a{
 .main .category .menu ul li a{
 	font-size: 0.9rem;
 	color: gray;
+	transition: 0.5s;
+}
+.main .category .menu ul li a:hover{
+	text-decoration: underline;
 }
 .main h2{
 	font-weight: normal;
@@ -127,10 +131,14 @@ a{
 	border-radius: 2rem;
 	color: black;
 	font-weight: bold;
+	transition: 0.5s;
 }
 .main .main-food .shop-by-cate .row-button p a:hover{
-	text-decoration: underline;
+	background-color: #6fe2dc;
+	border:none;
+	color: white;
 }
+
 /*end shop by category*/
 
 
@@ -270,6 +278,11 @@ a{
 .nav-list .item .list ul li a{
 	font-size: 0.8rem;
 	color: #565353;
+	transition: 0.5s;
+}
+.nav-list .item .list ul li a:hover{
+	color: #319680;
+	font-weight: bold;
 }
 /*end nav-list*/
 

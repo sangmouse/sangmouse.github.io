@@ -63,6 +63,13 @@ a{
 	color: black;
 	font-weight: bold;
 	font-size: 0.9rem;
+	transition: 0.4s;
+	-webkit-transition: 0.4s;
+	-o-transition: 0.4s;
+	-moz-transition: 0.4s;
+}
+.navigation-bar .content ul li a:hover{
+	color: #1eced0;
 }
 .navigation-bar .content ul li.right{
 	float: right;
@@ -173,6 +180,7 @@ a{
 	font-size: 0.7rem;
 	color: #423f3f;
 	padding: 0.4rem 0.5rem;
+	transition: 0.5s;
 }
 .banner .menu .toolbar ul li a:hover{
 	border-radius: 2rem;
@@ -216,6 +224,9 @@ a{
 	float: left;
 	background-color: #ffffff;
 }
+.wrapper .main .main-content .category a:hover{
+	text-decoration: underline;
+}
 .wrapper .main .main-content .main-soda{
 	width: 80%;
 	height: auto;
@@ -253,6 +264,13 @@ a{
 	list-style-type: square;
 	padding-left: 3rem;
 }
+.wrapper .main .main-content .category .item .square p{
+	padding-left: 1.5rem;
+}
+.wrapper .main .main-content .category .item .square p a{
+	color: #2e96bf;
+	font-size: 1.05rem;
+}
 /*main-soda*/
 .main-soda .soda-image{
 	width: 100%;
@@ -277,6 +295,10 @@ a{
 }
 .main-soda .soda-image .row .item .item-img{
 	position: relative;
+}
+.main-soda .soda-image .row .item .item-img:hover{
+	opacity: 0.5;
+	transition: 0.4s;
 }
 .main-soda .soda-image .row .item .item-img .top-left{
 	position: absolute;
