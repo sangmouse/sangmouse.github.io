@@ -78,7 +78,7 @@ a{
 
 /*banner*/
 .banner .banner-img img{
-	max-width: 100%;
+	width: 100%;
 	height: auto;
 }
 .banner .banner-img .text-block{
@@ -289,7 +289,7 @@ a{
 
 }
 .main-soda .soda-image .row .item .item-img img{
-	max-width: 100%;
+	width: 100%;
 	height: auto;
 }
 .main-soda .soda-image .row .item .item-text{
@@ -357,7 +357,7 @@ a{
 	margin-right: 2%;
 }
 .main-soda .soda-fruits .row .item-img img{
-	max-width: 100%;
+	width: 100%;
 	height: auto;
 }
 .main-soda .soda-fruits .row .item-text{

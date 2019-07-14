@@ -96,7 +96,7 @@ a{
 	margin: 0 2%;
 }
 .main .main-food .bbq-essentials .row .item img{
-	max-width: 100%;
+	width: 100%;
 	height: auto;
 }
 .main .main-food .shop-by-cate .row{
@@ -111,7 +111,7 @@ a{
 	margin: 0 4%;
 }
 .main .main-food .shop-by-cate .row .item img{
-	max-width: 100%;
+	width: 100%;
 	height: auto;
 }
 .main .main-food .shop-by-cate .row .item p{
@@ -150,7 +150,7 @@ a{
 }
 
 .main .main-food .eat .row .item img{
-	max-width: 100%;
+	width: 100%;
 	height: auto;
 }
 .main .main-food .eat .row .eat-right{
@@ -173,7 +173,7 @@ a{
 	margin-left: 0.5%;
 }
 .main .main-food .eat .row .eat-right .eat-right-row .item-float1 img,.main .main-food .eat .row .eat-right .eat-right-row .item-float2 img{
-	max-width: 100%;
+	width: 100%;
 	height: auto;
 }
 /*product*/
@@ -197,7 +197,7 @@ a{
 	font-weight: bold;
 }
 .main .main-food .product .row .item img{
-	max-width: 100%;
+	width: 100%;
 	height: auto;
 }
 /*Savings Showcase*/
@@ -216,7 +216,7 @@ a{
 	margin-bottom: 2rem;
 }
 .main .main-food .showcase .row .item img{
-	max-width: 100%;
+	width: 100%;
 	height: auto;
 }
 /*food*/
