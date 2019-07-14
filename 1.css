@@ -69,6 +69,9 @@ a{
 	border: 1px solid #eae5e5;
 	border-radius: 5px;
 }
+.header .tweet button:hover{
+	background-color: #f5efef;
+}
 .header .tweet button a{
 	color: #34AC98;
 	
