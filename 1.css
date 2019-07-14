@@ -146,11 +146,12 @@ a{
 .main .main-content{
 	padding-top: 2rem;
 	width: 100%;
+	overflow: hidden;
 }
 .main .main-content .main-content-item{
-	width: 23.5%;
+	width: 23%;
 	float: left;
-	margin-right: 2%;
+	margin: 0 1%;
 	margin-bottom: 3rem;
 }
 .main .main-content .main-content-item:last-child{
@@ -244,6 +245,7 @@ a{
 		width: 100%;
 		float: none;
 	}
+
 	.main .list .list-item p,.header .tweet{
 		display: none;
 	}
@@ -327,6 +329,7 @@ a{
 		}
 		.main .main-content .main-content-item{
 			width: 100%;
+			margin: 0;
 			float: none;
 		}
 		.footer .footer-copyright, .main .footer .footer-social{
