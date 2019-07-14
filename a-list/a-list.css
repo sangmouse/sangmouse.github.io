@@ -95,6 +95,9 @@ a{
 .main-content {
     overflow: hidden;
 }
+.main .main-content .main-content-block .main-content-block-item .block .text p.link a{
+	color: #34AC98;
+}
 .main .main-content .main-content-block .main-content-block-item .block {
     overflow: hidden;
 }
