@@ -91,6 +91,15 @@ a{
 	color: gray;
 
 }
+.main-content {
+    overflow: hidden;
+}
+.main .main-content .main-content-block .main-content-block-item .group {
+    overflow: hidden;
+}
+.main .main-content .main-content-block .main-content-block-item .social {
+    overflow: hidden;
+}
 .main .main-content .main-content-block{
 	width: 71%;
 	float: left;

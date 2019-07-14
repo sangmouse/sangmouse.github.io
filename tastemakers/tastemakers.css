@@ -91,6 +91,9 @@ a{
 	color: gray;
 
 }
+.main .main-content .row{
+    overflow: hidden;
+}
 .main .main-content button{
 	color: #34AC98;
 	font-size: 0.7rem;

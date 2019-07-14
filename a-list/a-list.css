@@ -92,6 +92,12 @@ a{
 	color: gray;
 
 }
+.main-content {
+    overflow: hidden;
+}
+.main .main-content .main-content-block .main-content-block-item .block {
+    overflow: hidden;
+}
 .main .main-content .main-content-block{
 	width: 71%;
 	float: left;
