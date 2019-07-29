@@ -1,0 +1,470 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	list-style-type: none;
+	line-height: 1.4rem;
+}
+a{
+	text-decoration: none;
+}
+/*header*/
+.wrapper {
+    width: 100%;
+}
+
+.wrapper .header {
+    width: 100%;
+    background: #efece3;
+    /* padding: 0.7rem 0; */
+}
+
+.wrapper .header .row {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.wrapper .header .row .item {
+    width: 33.33%;
+    float: left;
+    border-right: 0.5px solid white;
+    padding: 0 3%;
+}
+.wrapper .header .row .item:last-child{
+	border-right: none;
+}
+.wrapper .header .row .item p {
+    margin: 0;
+    padding: 0.5rem 0;
+    font-size: 0.9rem;
+    color: #927d3f;
+}
+.wrapper .header .row .item.between{
+	background-color: #f2f2f2;
+}
+.wrapper .header .row .item.between p{
+	color: #a7a1a1;
+}
+
+/*navigation*/
+.wrapper .navigation {
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.wrapper .navigation .logo {
+    width: 100%;
+    text-align: center;
+}
+
+.wrapper .navigation .logo a img {
+    max-width: 100%;
+    height: auto;
+    transition: 0.5s;
+}
+
+.wrapper .main {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.wrapper .main .banner a img {
+    width: 100%;
+    height: auto;
+}
+
+.wrapper .main .banner {
+    width: 100%;
+    position: relative;
+    margin-bottom: 1rem;
+}
+.wrapper .main .banner .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.wrapper .main .banner .text a {
+    color: white;
+}
+
+.wrapper .main .banner .text h4 {
+    text-transform: uppercase;
+    font-size: 1.9rem;
+    text-align: center;
+    border-bottom: 2px solid white;
+    padding-bottom: 2rem;
+    margin: 0;
+}
+
+.wrapper .main .banner .text p {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.wrapper .main .banner .text a {
+    background: #9d8954;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    /* text-align: center; */
+}
+.product .row .item {
+    width: 49%;
+    float: left;
+}
+
+.product .row {
+    width: 100%;
+    overflow: hidden;
+}
+
+.product .row .item.left {
+    margin-right: 1%;
+}
+
+.product .row .item.right {
+    margin-left: 1%;
+}
+
+.product .row .item .item-img {
+    width: 100%;
+    height: 400px;
+    background: gray;
+    position: relative;
+}
+
+.product .row .item .item-img .text {
+    width: 70%;
+    position: absolute;
+    background: white;
+    padding: 2rem 3rem;
+    padding-bottom: 0;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: #59595f;
+    text-align: center;
+}
+
+.product .row .item .item-img .text h4,.product .row .item .item-img .text p {
+    margin: 0;
+    margin-bottom: 0.7rem;
+}
+
+.product .row .item .item-img .text h4 {
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.product .row .item .item-img .text a {
+    color: #1f1c1c;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+}
+.main .product {
+    padding-bottom: 3rem;
+}
+.main .season-picks h4.title {
+    text-align: center;
+    text-transform: uppercase;
+    color: #59595f;
+    font-size: 1.7rem;
+    margin: 0;
+    padding-bottom: 2rem;
+}
+
+.main .season-picks h4.title {
+    border-bottom: 1px solid #8080803d;
+    margin-bottom: 1rem;
+}
+
+
+.main .story {
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.main .story .story-img {
+    width: 100%;
+    height: 450px;
+    background: #8080806e;
+    position: relative;
+}
+
+.main .story .story-img .text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    padding: 0 10rem;
+    text-align: center;
+}
+
+.main .story .story-img .text h4 {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+
+.main .story .story-img .text p {
+    font-size: 1.1rem;
+}
+
+.main .story .story-img .text a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.85rem;
+    border-bottom: 0.1px solid white;
+    padding-bottom: 1rem;
+}
+.main .season-picks {
+    padding-bottom: 5rem;
+}
+.main .as-seen-in h4.title {
+    text-align: center;
+    text-transform: uppercase;
+    color: #59595f;
+    font-size: 1.7rem;
+    margin: 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #8080803d;
+}
+.main .as-seen-in .row .list img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main .as-seen-in .row .list ul li {
+    float: left;
+    padding: 0 0.5rem;
+}
+
+.main .as-seen-in .row {
+    width: 95%;
+    margin: 0 auto;
+}
+.main .spa {
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.main .spa .spa-img {
+    width: 100%;
+    height: 300px;
+    background: #8080806e;
+    position: relative;
+}
+
+.main .spa .spa-img .textt {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    padding: 0 10rem;
+    text-align: center;
+}
+
+.main .spa .spa-img .textt h4 {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+
+.main .spa .spa-img .textt p {
+    font-size: 1.1rem;
+}
+
+.main .spa .spa-img .textt a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.85rem;
+    border-bottom: 0.1px solid white;
+    padding-bottom: 1rem;
+}
+.main .as-seen-in {
+    margin-bottom: 5rem;
+}
+.nav-list {
+    width: 100%;
+    background: #f2f2f2;
+    padding: 3rem 0;
+}
+
+.nav-list .row {
+    width: 85%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.nav-list .row .item {
+    width: 25%;
+    float: left;
+}
+
+.nav-list .row .item h4.title {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: #5a5555;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.nav-list .row .item .list ul li a {
+    color: #7d7b7b;
+    /* margin-bottom: 1rem; */
+}
+.footer {
+    width: 100%;
+    height: 20px;
+    background: #848080;
+}
+.main .gift {
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.main .gift .row {
+    width: 100%;
+    overflow: hidden;
+}
+
+.main .gift .row .item {
+    width: 49%;
+    float: left;
+    margin-bottom: 2rem;
+}
+.main .gift .row .item.left{
+	margin-right: 1%;
+}
+.main .gift .row .item.right{
+	margin-left: 1%;
+}
+.main .gift .row .item .img {
+    width: 100%;
+    background: gray;
+    height: 350px;
+    margin-bottom: 2rem;
+}
+
+.main .gift .row .item .text {
+    text-align: center;
+}
+
+.main .gift .row .item .text h4.title {
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.main .gift .row .item .text h4.title {
+    margin: 0;
+}
+
+.main .gift .row .item .text p {
+    margin: 0;
+    margin: 0.7rem 0;
+}
+
+.main .gift .row .item .text a {
+    color: #1f1c1c;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+}
+.main .story .story-img .text h4,.main .spa .spa-img .textt h4{
+	margin-top: 0;
+}
+@media only screen and (max-width: 768px) {
+	.wrapper .main .banner .text{
+		display: none;
+	}
+	.product .row .item .item-img .text{
+		display: none;
+	}
+	.main .story .story-img .text{
+		padding: 0;
+		left: 50%;
+	}
+	.main .spa .spa-img .textt{
+		padding: 0;
+		left: 50%;
+	}
+	.main .as-seen-in .row .list ul li{
+		padding: 0;
+	}
+	.wrapper .header .row{
+		width: 100%;
+	}
+	@media only screen and (max-width: 600px){
+		.product .row .item .item-img{
+			height: 300px;
+		}
+		.main .gift .row .item .img{
+			height: 300px;
+		}
+		
+		.nav-list .row{
+			width: 100%;
+		}
+		.nav-list .row .item{
+			width: 100%;
+			float: none;
+			border-bottom: 1px solid #80808029;
+			padding-bottom: 1rem;
+			margin-bottom: 1rem;
+			padding-left: 1rem;
+			text-align: center;
+		}
+		.nav-list .row .item:last-child{
+			border-bottom: none;
+			padding-bottom: 0;
+			margin-bottom: 0;
+		}
+	}
+	@media only screen and (max-width: 414px){
+		.wrapper .header{
+			background-color: #f2f2f2;
+		}
+		.wrapper .header .row .item:first-child,.wrapper .header .row .item:last-child{
+			display: none;
+		}
+		.wrapper .header .row .item.between{
+			width: 100%;
+			border-right: none;
+			text-align: center;
+		}
+		.product .row .item .item-img,.main .gift .row .item .img{
+			height: 200px;
+		}
+		.main .gift .row .item .img{
+			margin-bottom: 1rem;
+		}
+	}
+}
+/*js*/
+.navigation.fixed{
+	position: fixed;
+	top: 0;
+	z-index: 2;
+	height: 100px;
+}
+#navi-img.height-100{
+	height: 100px;
+}
