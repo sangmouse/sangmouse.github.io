@@ -3,8 +3,9 @@ document.addEventListener("DOMContentLoaded",function(){
 	var image=document.getElementById('navi-img');
 	var story_img=document.getElementById('story-img');
 	var position_story=story_img.offsetTop-900;
-	
 	var position=navigation.offsetTop;
+	var btnscrollTop=document.getElementById('btnscrollTop');
+
 
 	document.addEventListener('scroll',function(){
 		if (window.pageYOffset>position) {
@@ -19,5 +20,12 @@ document.addEventListener("DOMContentLoaded",function(){
 		if (window.pageYOffset>=position_story) {
 			story_img.classList.add('moveup');
 		}
+	})
+	btnscrollTop.addEventListener('click',function(){
+		window.scrollTo({
+			top:0,
+			left:0,
+			behavior:'smooth'
+		});
 	})
 },false)
