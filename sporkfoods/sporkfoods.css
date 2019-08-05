@@ -28,6 +28,7 @@ ul{
 .wrapper .banner .banner-img img {
     width: 100%;
     height: auto;
+    display: block;
 }
 .wrapper .banner .banner-img .navbar {
     width: 100%;
@@ -42,6 +43,7 @@ ul{
     background: #b073b1;
     opacity: 0.7;
     position: fixed;
+    z-index: 2;
 }
 /**/
 .wrapper .banner .banner-img .navbar .row{
@@ -94,9 +96,80 @@ ul{
 .wrapper .cooking .row.row1 .item .image img {
     width: 100%;
     height: auto;
+    display: block;
+}
+.row.contact .item {
+    width: 25%;
+    float: left;
+}
+.row.contact .item .image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.row.vegan .vegan-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/*end cooking*/
+
+/*preview*/
+.wrapper .preview {
+    width: 100%;
+    padding: 2rem 0 5rem 0;
+}
+.wrapper .preview .row {
+    width: 82%;
+    margin: 0 auto;
+}
+.wrapper .preview .row h2.title {
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #5a5454;
+}
+.wrapper .preview .row p.desc {
+    color: #5a5454;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
+.wrapper .preview .row p.desc a.red {
+    color: #e65646;
+}
+.wrapper .preview .row .food {
+    width: 100%;
+    overflow: hidden;
+}
+.wrapper .preview .row .food .item {
+    width: 23.5%;
+    float: left;
+    margin-right: 2%;
+    border: 1px solid #8080803b;
+    margin-bottom: 1rem;
+}
+.wrapper .preview .row .food .item a img {
+    width: 100%;
+    height: auto;
+}
+.wrapper .preview .row .food .item:last-child {
+    margin-right: 0;
+}
+.wrapper .preview .row .food .item .desc {
+    padding: 0.5rem 0 0 1rem;
+    text-align: left;
+}
+.wrapper .preview .row .food .item .desc a {
+    text-transform: uppercase;
+    color: #464545;
+    font-weight: bold;
+}
+.wrapper .preview .row .food .item .desc p.cost {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 0.5rem 0 1rem 0;
 }
 
-/*end cooking*/
+/**/
 
 /*gifts*/
 .wrapper .gift {
@@ -105,6 +178,7 @@ ul{
 .wrapper .gift .gift-bg img.bg-img {
     width: 100%;
     height: auto;
+    display: block;
 }
 .wrapper .gift .gift-bg .text-block {
     position: absolute;
@@ -115,6 +189,7 @@ ul{
 }
 .wrapper .gift .gift-bg {
     position: relative;
+    z-index: 1;
 }
 .wrapper .gift .gift-bg .text-block h1 {
     margin: 0;
@@ -142,9 +217,79 @@ ul{
 }
 /*end gifts*/
 
+
+/*testimonials*/
+.slideshow-container {
+  position: relative;
+  background: #5ccb9e;
+  color: white;
+}
+.mySlides.active{
+    display: block;
+}
+.mySlides {
+  display: none;
+  padding: 4rem 0 1rem 0;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+
+}
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #5ccb9e;
+}
+.slideshow-container .mySlides h2.title {
+    margin: 0;
+    margin-bottom: 4rem;
+}
+
+.slideshow-container .mySlides p.desc {
+    font-size: 1.3rem;
+}
+.slideshow-container .mySlides img{
+    max-width: 100%;
+    height: auto !important;
+}
+.slideshow-container .mySlides img {
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.slideshow-container .mySlides p.name {
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.slideshow-container .mySlides p.work {
+    margin: 0;
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+
+/* The dots/bullets/indicators */
+.dot-container .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+ border: 1px solid #2fa274;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dot-container .dot.active{
+    background-color: #255f4787;
+}
+/**/
+
+
 /*follow*/
 .wrapper .follow {
     width: 100%;
+    padding: 3rem 0;
 }
 .wrapper .follow .row {
     width: 82%;
@@ -161,7 +306,7 @@ ul{
 /*end follow*/
 
 /*foods*/
-.wrapper .food {
+.wrapper .food.mb-5rem {
     width: 100%;
     margin-bottom: 5rem;
 }
@@ -176,6 +321,7 @@ ul{
 .wrapper .food .row .item a img {
     width: 100%;
     height: auto;
+    display: block;
 }
 /*end foods*/
 
@@ -279,3 +425,63 @@ button.btnscrollTop.show_btn{
 	}
 }
 /**/
+
+/**/
+@media only screen and (max-width: 768px){
+	.wrapper .banner .banner-img .navbar{
+		display: none;
+	}
+	.wrapper .preview .row .food .item{
+		width: 48%;
+	}
+	.wrapper .preview .row .food .item.item2{
+		margin-right: 0;
+	}
+	.wrapper .gift{
+		display: none;
+	}
+	.wrapper .footer .row{
+		width: 100%;
+	}
+	.wrapper .footer .row .item.item2,.wrapper .footer .row .item.item3 {
+    	display: none;
+	}
+	.wrapper .footer .row .item {
+	    width: 100%;
+	    float: none;
+	}
+	.wrapper .footer .row .item.item1 {
+    	text-align: center;
+    	margin-bottom: 3.5rem;
+	}
+	.wrapper .footer .row .item.item1 .social {
+	    text-align: center;
+	}
+	.wrapper .footer .row .item.item1 .social ul{
+	    display: inline-block;
+	}
+	.wrapper .footer .row .item.item4 {
+	    width: 90%;
+	    margin: 0 auto;
+	}
+	@media only screen and (max-width: 600px) {
+		.wrapper .food .row .item {
+    		width: 50%;
+		}
+        .slideshow-container .mySlides{
+            padding: 2rem 0 1rem 0;
+        }
+        .slideshow-container .mySlides h2.title{
+            margin-bottom: 1rem;
+        }
+	}
+	@media only screen and (max-width: 414px) {
+		.wrapper .preview .row .food .item {
+		    width: 100%;
+		    float: none;
+		}
+        .slideshow-container .mySlides p.desc{
+            font-size: 1rem;
+        }
+	}
+}

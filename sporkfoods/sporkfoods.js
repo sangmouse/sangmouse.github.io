@@ -3,6 +3,9 @@ document.addEventListener("DOMContentLoaded",function(){
 	const position_nav=navbar.offsetTop+10;
 	var btn_uptoTop=document.getElementById('btnscrollTop');
 	const scroll_position=200;
+	var nut=document.querySelectorAll('.dot-container span');
+	var slides=document.querySelectorAll('.slideshow-container .mySlides');
+
 	// console.log(position_nav);
 	// scroll navbar
 	window.addEventListener('scroll',function(){
@@ -28,4 +31,21 @@ document.addEventListener("DOMContentLoaded",function(){
 			});
 		})
 	})
+	// slides show
+	for (var i = 0; i < nut.length; i++) {
+		nut[i].addEventListener('click',function(){
+			for (var i = 0; i < nut.length; i++) {
+				nut[i].classList.remove('active');
+			}
+			this.classList.add('active');
+			var nutkichhoat=this;
+						var vitrinut=0;
+						for (vitrinut = 0; nutkichhoat=nutkichhoat.previousElementSibling; vitrinut++) {}
+						
+						for (var i = 0; i < slides.length; i++) {
+							slides[i].classList.remove('active');
+							slides[vitrinut].classList.add('active');
+						}
+		})
+	}
 },false)

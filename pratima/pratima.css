@@ -203,7 +203,7 @@ a{
 .main .story .story-img {
     width: 100%;
     height: 450px;
-    background: #8080806e;
+    background: gray;
     position: relative;
     transition: 0.5s;
 }
@@ -269,7 +269,7 @@ a{
 .main .spa .spa-img {
     width: 100%;
     height: 300px;
-    background: #8080806e;
+    background: gray;
     position: relative;
 }
 
@@ -475,7 +475,7 @@ button.btnscrollTop:hover {
 	}
 }
 /*js*/
-.navigation.fixed{
+/*.navigation.fixed{
 	position: fixed;
 	top: 0;
 	z-index: 2;
@@ -484,10 +484,4 @@ button.btnscrollTop:hover {
 #navi-img.height-100{
 	height: 100px;
 }
-#story-img.moveup{
-	animation: moveup 1s ease forwards;
-}
-@-webkit-keyframes moveup{
-	from{transform: translateY(300px); opacity: 0;}
-	to{transform: translateY(0); opacity: 1}
-}
+*/

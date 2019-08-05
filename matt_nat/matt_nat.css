@@ -65,11 +65,13 @@ ul{
 .banner .row a img {
     width: 100%;
     height: auto;
+    display: block;
 }
 /*sale-off*/
 .sale-off .row a img {
     width: 100%;
     height: auto;
+    display: block;
 }
 .sale-off {
     width: 100%;
@@ -86,6 +88,7 @@ ul{
 .outfit .row .item .item-img a img {
     width: 100%;
     height: auto;
+    display: block;
 }
 .outfit .row .item .item-img {
     position: relative;
@@ -107,7 +110,10 @@ ul{
 .outfit .row .video {
     position: relative;
 }
-
+.outfit .row .video video{
+	display: block;
+	margin-bottom: -1px;
+}
 .outfit .row .video .editor {
     position: absolute;
     /* color: white; */
